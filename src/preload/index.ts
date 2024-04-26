@@ -1,7 +1,7 @@
 import { contextBridge, ipcRenderer } from 'electron';
 
-contextBridge.exposeInMainWorld('LLTemplate_Vite', {
+contextBridge.exposeInMainWorld('sakamichi_msg_bot', {
   greeting: (name: string) => {
-    ipcRenderer.send('LLTemplate-Vite.Greeting', name);
+    ipcRenderer.send('sakamichi_msg_bot.Greeting', name);
   }
 });

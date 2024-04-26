@@ -1,5 +1,5 @@
 {
-  "name": "lltemplate-vite",
+  "name": "sakamichi_msg_bot",
   "version": "1.0.0",
   "description": "A plugin template for LiteLoaderQQNT, powered by Vite & Typescript",
   "main": "index.js",

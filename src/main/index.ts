@@ -1,7 +1,7 @@
 import { ipcMain, BrowserWindow } from 'electron';
-
-ipcMain.on('LLTemplate-Vite.Greeting', (e, name: string) => {
+ipcMain.on('sakamichi_msg_bot.Greeting', (e, name: string) => {
   console.log('Hello, ' + name + '!');
+
 });
 
 export const onBrowserWindowCreated = (window: BrowserWindow) => {

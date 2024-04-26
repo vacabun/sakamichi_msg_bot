@@ -1,3 +1,4 @@
+import { Group, PlainText } from '../../LiteLoaderQQNT-Euphony/src/index.js';
 
 export const onSettingWindowCreated = (view: HTMLElement) => {
   console.log('Setting window has just been created');
@@ -18,7 +19,9 @@ export const onSettingWindowCreated = (view: HTMLElement) => {
   });
 
   (doms.body.querySelector('#template-greet') as HTMLButtonElement).addEventListener('click', () => {
-    LLTemplate_Vite.greeting('Misa');
+    sakamichi_msg_bot.greeting('Misa');
+    const group = Group.make(233755438);
+    group.sendMessage(new PlainText('test'));
   });
 
   doms.body.childNodes.forEach((dom) => {

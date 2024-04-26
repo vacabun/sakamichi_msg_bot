@@ -1,15 +1,15 @@
 {
   "manifest_version": 4,
   "type": "extension",
-  "name": "LLTemplate-Vite",
-  "slug": "LLTemplate-Vite",
-  "description": "A plugin template for LiteLoaderQQNT, powered by Vite & Typescript",
-  "version": "1.0.0",
+  "name": "sakamichi_msg_bot",
+  "slug": "sakamichi_msg_bot",
+  "description": "sakamichi_msg_bot",
+  "version": "0.0.1",
   "icon": null,
   "authors": [
     {
-      "name": "MisaLiu",
-      "link": "https://github.com/MisaLiu"
+      "name": "vacabun",
+      "link": "https://github.com/vacabun"
     }
   ],
   "platform": [
@@ -23,11 +23,11 @@
     "renderer": "./renderer/index.js"
   },
   "repository": {
-    "repo": "MisaLiu/LietLoaderQQNT-PluginTemplate-Vite",
+    "repo": "vacabun/sakamichi_msg_bot",
     "branch": "master",
-    "release": {
+    "release.comment": {
       "tag": "1.0.0",
-      "file": "LLTemplate-Vite"
+      "file": "sakamichi_msg_bot"
     }
   }
 }
